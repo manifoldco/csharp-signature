@@ -6,9 +6,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-signature-tests", "csharp-signature-tests\csharp-signature-tests.csproj", "{8769BD5D-57D6-4D79-8AF3-7BCD2029903E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B62F7E4-354A-4DE8-9AF7-E244961724C2}"
+<<<<<<< HEAD
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+=======
+>>>>>>> 2ebb60a1a455c822498e8a56624f7181c0172d2a
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
