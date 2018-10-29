@@ -50,7 +50,7 @@ namespace Manifold.Signature
             PublicKey livePublicKey = PublicKey.Import(algorithm, this.publicKey, KeyBlobFormat.RawPublicKey);
             if (!algorithm.Verify(livePublicKey, Encoding.UTF8.GetBytes(body), this.signature))
             {
-                throw new InvalidSignatureException("Request Public Key was not endorsed by Manifold");
+                throw new InvalidSignatureException("Request was not signed by included Public Key");
             }
             return true;
         }
