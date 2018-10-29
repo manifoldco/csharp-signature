@@ -4,5 +4,5 @@ dotnet: 2.1.3
 dist: trusty
 
 script:
- - dotnet build
+ - cd csharp-signature-tests
  - dotnet test
